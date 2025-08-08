@@ -28,9 +28,29 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
-console.log(typeof outsideTemp);
+// console.log(typeof outsideTemp);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// %%%%%%%%%%%% MEMORY%%%%%%%%%%%%%%%
+
+let myYoutubename = "AyushRajput"
+
+let anothername = myYoutubename
+anothername = "newone "
+
+// console.log(anothername);
+// console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail,com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+console.log(userOne.email);
+console.log(userTwo.email);
